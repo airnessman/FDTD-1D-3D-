@@ -1,9 +1,9 @@
-% ÎÄ¼þÃèÊö£º×ÔÓÉ¿Õ¼äÒ»Î¬FDTD·ÂÕæ£¬ÓÐ±ß½çÎüÊÕ
-% ¼¤ÀøÃèÊö£º¸ßË¹Âö³å
-% ¼¤ÀøÎ»ÖÃ£ºÍø¸ñÖÐ¼ä
+% æ–‡ä»¶æè¿°ï¼šè‡ªç”±ç©ºé—´ä¸€ç»´FDTDä»¿çœŸï¼Œæœ‰è¾¹ç•Œå¸æ”¶
+% æ¿€åŠ±æè¿°ï¼šé«˜æ–¯è„‰å†²
+% æ¿€åŠ±ä½ç½®ï¼šç½‘æ ¼ä¸­é—´
 
 clc; clear; close all;
-% ¡ª¡ª¡ªÉèÖÃ³õÊ¼Ìõ¼þ
+% â€”â€”â€”è®¾ç½®åˆå§‹æ¡ä»¶
 NSTEPS= 1000;
 KE= 200; 
 ex(KE)= 0.0;
@@ -12,7 +12,7 @@ kc= KE/2;
 
 t0 = 40.0;  spread = 12;
 
-%---±ß½çÌõ¼þ³õÊ¼»¯
+%---è¾¹ç•Œæ¡ä»¶åˆå§‹åŒ–
 ex_low_m1 = 0.0;ex_low_m2 = 0.0;
 ex_high_m1 = 0.0;ex_high_m2 = 0.0;
 
@@ -32,7 +32,7 @@ for n= 1:NSTEPS
       hy(k)= hy(k) +0.5*(ex(k) - ex(k+1))  ;     
     end 
     
-    %----»­Í¼
+    %----ç”»å›¾
 %     if(n==100)
 %         subplot(3,1,1);
 %         plot(ex);
