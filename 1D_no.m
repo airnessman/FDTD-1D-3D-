@@ -1,9 +1,9 @@
-% ÎÄ¼þÃèÊö£º×ÔÓÉ¿Õ¼äÒ»Î¬FDTD·ÂÕæ£¬ÎÞ±ß½çÎüÊÕ
-% ¼¤ÀøÃèÊö£º¸ßË¹Âö³å
-% ¼¤ÀøÎ»ÖÃ£ºÍø¸ñÖÐ¼ä
+% æ–‡ä»¶æè¿°ï¼šè‡ªç”±ç©ºé—´ä¸€ç»´FDTDä»¿çœŸï¼Œæ— è¾¹ç•Œå¸æ”¶
+% æ¿€åŠ±æè¿°ï¼šé«˜æ–¯è„‰å†²
+% æ¿€åŠ±ä½ç½®ï¼šç½‘æ ¼ä¸­é—´
 
 clc; clear; close all;
-% ¡ª¡ª¡ªÉèÖÃ³õÊ¼Ìõ¼þ
+% â€”â€”â€”è®¾ç½®åˆå§‹æ¡ä»¶
 KE= 600; 
 ex(KE)= 0.0;
 hy(KE)= 0.0;
@@ -36,12 +36,12 @@ end
 
 %     subplot(2,1,1);
 %     plot(ex);
-%     xlabel('¿Õ¼äÍø¸ñÊý');
+%     xlabel('ç©ºé—´ç½‘æ ¼æ•°');
 %     ylabel('ex');
 %     axis([0 KE -1.2 1.2]);
 %     subplot(2,1,2);
 %     plot(hy);
-%     xlabel('¿Õ¼äÍø¸ñÊý');
+%     xlabel('ç©ºé—´ç½‘æ ¼æ•°');
 %     ylabel('hy');
 %     axis([0 KE -1.2 1.2]);
     
